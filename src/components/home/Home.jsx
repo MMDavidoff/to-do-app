@@ -2,9 +2,9 @@ import React from "react";
 import classes from "./Home.module.css";
 const Home = () => {
   return (
-    <div>
-      <p>Home page</p>
-      <h1>Who are we?</h1>
+    <div className={classes.main}>
+      <p className={classes.home}>Home page</p>
+      <h1 className={classes.title}>Who are we?</h1>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, aperiam
         illum obcaecati explicabo nulla eaque laborum vitae praesentium impedit
