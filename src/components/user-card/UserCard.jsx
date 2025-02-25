@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import classes from "./UserCard.module.css";
 
 const UserCard = ({ user }) => {
-  const { name, phone, email } = user;
+  const { name, phone, email, address } = user;
   const [showAddress, setShowAddress] = useState(false);
   const toggleAddress = () => {
     setShowAddress(!showAddress);
@@ -16,8 +16,11 @@ const UserCard = ({ user }) => {
         {showAddress ? "Hide address" : "Show address"}
       </button>
       {showAddress && (
-        <div>
-          <p>address</p>
+        <div className={classes.address}>
+          <p>.::Address::.</p>
+          <p> City: {address.city}</p>
+          <p> Street: {address.street}</p>
+          <p> Suite: {address.suite}</p>
         </div>
       )}
     </div>

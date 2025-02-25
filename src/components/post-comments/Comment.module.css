@@ -1,0 +1,25 @@
+.comment {
+  margin: 15px;
+  padding: 10px;
+}
+
+.comment h3 {
+  border: 2px rgb(95, 95, 95) solid;
+  padding: 10px;
+  top: 10px;
+  bottom: 10px;
+  background-color: rgb(70, 70, 70);
+  border-radius: 3px;
+  text-decoration: underline;
+  color: azure;
+  transition: 0.3s;
+}
+
+.comment h3:hover {
+  background-color: rgb(238, 238, 238);
+  color: black;
+}
+
+.comment p {
+  padding: 10px;
+}

@@ -1,0 +1,12 @@
+.titlePost {
+  border: 3px solid rgb(70, 70, 70);
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  margin: 15px;
+}
+
+.titlePost h1 {
+font-size: 25px;
+font-weight: 800;
+margin-bottom: 15px;
+}
